@@ -1,0 +1,44 @@
+// pagination 
+// caching 
+// clock
+// notepad styling 
+
+
+
+// destructing 
+/* Renaming Variables:
+You can assign properties to variables with different names. */
+/* const user = {
+    username: "jackie123",
+    email: "jackie@example.com"
+};
+
+const { username: userName, email: userEmail } = user;
+
+console.log(userName);  // "jackie123"
+console.log(userEmail); // "jackie@example.com" */
+
+/* Default Values:
+You can set default values for properties that may not exist.
+const settings = { theme: "dark" };
+
+const { theme, language = "English" } = settings;
+
+console.log(theme);    // "dark"
+console.log(language); // "English"
+ */
+
+/* Function Parameter Destructuring
+Destructuring can be used directly in function parameters to extract values.
+function greet({ name, age }) {
+    return `Hello, ${name}. You are ${age} years old.`;
+}
+
+const person = { name: "Alice", age: 25 };
+
+console.log(greet(person)); // "Hello, Alice. You are 25 years old." */
+
+
+
+Try to use Map.groupBy to group notes into old and newer category
+Map.groupBy is a new JS 2024
